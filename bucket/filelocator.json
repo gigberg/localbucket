@@ -3,10 +3,12 @@
     "homepage": "https://www.mythicsoft.com/filelocatorpro/",
     "description": "FileLocatorPortable",
     "url": "file:///D:/PortablePrograms/Win10Tools/FileLocator/FileLocator_Portable（8.5b2912）.rar",
-    "bin": [["FileLocatorPortable/FileLocatorPortable.exe", "floc", "-dw"]],
+    "extract_dir": "FileLocatorPortable",
+    "bin": [["FileLocatorPortable.exe", "floc", "-dw"]],
+    "persist": "Data",
     "shortcuts": [
         [
-            "FileLocatorPortable/FileLocatorPortable.exe",
+            "FileLocatorPortable.exe",
             "FileLocator Pro",
             "-dw"
         ]
