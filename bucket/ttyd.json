@@ -7,7 +7,6 @@
     "url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.win32.exe#/ttyd.exe",
     "hash": "",
     "bin": "ttyd.exe",
-    "innosetup": false,
     "checkver": {
         "github": "https://github.com/tsl0922/ttyd"
     },
