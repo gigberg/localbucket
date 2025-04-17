@@ -1,0 +1,19 @@
+{
+  "version": "3.1.8-r11",
+  "description": "multi-platform screen and application forwarding system, \"screen for X11\"",
+  "homepage": "https://xpra.org/",
+  "license": "LGPL-2.0-only",
+  "architecture": {
+    "64bit": {
+      "url": "https://xpra.org/stable/windows/Xpra-Light-Python3-x86_64_3.1.8-r11.zip",
+      "extract_dir": "Xpra-Light-Python3-x86_64_3.1.8-r11"
+    }
+  },
+  "bin": "xpra.exe",
+  "shortcuts": [
+    [
+      "Xpra.exe",
+      "Xpra"
+    ]
+  ]
+}

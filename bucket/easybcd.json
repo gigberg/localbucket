@@ -1,0 +1,29 @@
+{
+    "version": "2.4.0.237",
+    "homepage": "https://rsload.net/soft/11768-easybcd.html",
+    "description": "EasyBCD helps you take control of your boot loader. EasyBCD supercharges your Windows PC, allowing you to dual-boot to your heart's content.",
+    "url": "file:///D:/PortablePrograms/DiskHardwareTools/EasyBCD 2.4.0.237 Portable RSLOAD.NET.7z",
+    "notes": [
+        "文档https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests,",
+        "1: 本地文件url的file protocol需要关闭scoop的aria下载功能scoop config aria2-enabled false,否则下载报错,另外本地文件url中的空格或中文等不需要显式转义成url%号,可以直接原样入",
+        "2: url中的文件名和下载后的文件名未必相同,比如https://codeload.github.com/lukesampson/cowsay-psh/zip/refs/heads/master下载为cowsay-psh-master.zip(vscode.json中url末尾是stable#/dl.7z)",
+        "3-1: 便携包url对应的文件一般为zip等压缩格式,这时scoop会自动解包到curent程序文件夹中",
+        "3-2: exe文件不会自动解包(NSIS封装的exe包中实际的程序常常在$PLUGINSDIR子文件夹下),所以需要在url后边改名为#/dl.7z,以便scoop看待成压缩包来自动解包",
+        "exe#/dl.7z/*/app-64.7z是两层压缩包,外层由scoop自动解压到xxx/current/程序目录下,内层由手动的Expand-7zipArchive命令解压到同一个xxx/current/目录下(由于scoop的extract_dir只能提取单层压缩包中的子文件夹但不能直接提取两层压缩包中的子文件夹)",
+        "参考Antares.json的配置文件,其中url=Antares-0.7.28-portable.exe#/d1.7z, NSIS外壳被解包后到xxx/current/应用目录下后",
+        "还需要进一步手动调用pre_install=Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"来提取文件夹名为$PLUGINSDIR(文件夹名中含$符号)中的内层真实程序包到最外层目录",
+        "然后继续执行Remove-Item \"$dir\\`$*\", \"$dir\\Uninsta*\" -Recurse删掉外层目录中的多余文件(注意时间线:1.auto_extract_to_xxx_current/2.pre_install_script(常用于url=exe#/dl.7z的NSIS文件内层解包",
+        "或者url=bandizip.zip文件自动解包后子文件的重命名)/3.install_script(非MSI/NSIS的程序不能只解包,比如还需要执行其他命令,)/4.post_install_script(vscode.json中用于根据程序安装解包后的实时路径生成reg注册表文件))",
+        "另外根据scoop install extra/vscode的命令行日志可以看出一些执行顺序1.download dl.7z、2.auto extract dl.7z to xxx/current/、【此处为pre_install】、3.xxx/current程序文件夹软连接、4.shortcut+shim+env(顺序似乎不固定/估计是并行)环境变量、",
+        "5.persist软连接、【3-5(含)为默认的install步骤,如果还需其它步骤可以由install_script指定】、6.post_install_script根据安装具体路径生成reg注册表执行文件、7.打印notes提醒用户可以手动注入注册表vscode右键菜单",
+        "3-3: exe单文件无需解包,但是类似ttyd.json中需要设置innosetup=false",
+        "3-4: 既非zip 7zip又非exe扩展名的文件不会被scoop自动解包,而是将url下载的文件直接放到xxx/current/目录下",
+        "利用这点可以避免带密码的url=xxx.zip#dl.7z_包在scoop自动解压时失败,同时配合pre_install_script中的 7z x $dir\\$zip -pprocdot命令手动解压并弹出密码输入界面, 参见https://github.com/ScoopInstaller/Scoop/issues/4390",
+        "4: extract_dir配置项用于指定url下载的zip压缩包中的子文件夹,比如amber.json下载的压缩包xxx.zip/target/x86_64/release/yyy.exe",
+        "可以通过设置extract_dir为target/x86_64/release(无末尾斜杠)来只提取子文件夹中的内容到应用目录中xxx/current/yyy.exe"
+    ],
+    "extract_dir": "EasyBCD 2.4.0.237 Portable RSLOAD.NET/EasyBCD",
+    "bin": [["EasyBCDportable.exe", "easybcd"]],
+    "shortcuts": [["EasyBCDportable.exe", "EasyBCD 启动引导编辑"]],
+    "persist": "Data"
+}

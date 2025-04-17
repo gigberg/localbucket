@@ -1,0 +1,17 @@
+{
+    "version": "8.5",
+    "homepage": "https://www.mythicsoft.com/filelocatorpro/",
+    "description": "FileLocatorPortable",
+    "url": "file:///D:/PortablePrograms/Win10Tools/FileLocator/FileLocator_Portable（8.5b2912）.rar",
+    "extract_dir": "FileLocatorPortable",
+    "bin": [["FileLocatorPortable.exe", "floc", "-dw"]],
+    "persist": "Data",
+    "shortcuts": [
+        [
+            "FileLocatorPortable.exe",
+            "FileLocator Pro",
+            "-dw"
+        ]
+    ]
+}
+
