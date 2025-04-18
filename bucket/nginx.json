@@ -1,8 +1,11 @@
 {
     "version": "1.7.11.3",
     "description": "nginx with rtmp pre-compiled",
+    "homepage": "http://nginx-win.ecsds.eu/",
+    "license": "MIT",
     "notes": "To use the correct configuration run 'nginx -p \"$env:NGINX_HOME\"' or 'nginx -p \"%NGINX_HOME%\"'",
     "url": "http://nginx-win.ecsds.eu/download/nginx%201.7.11.3%20Gryphon.zip",
+    "hash": "f303b8af80c2f8d2c4d5063f5cd87ec0460c360645a328d0388f3febc0b1e4c2",
     "bin": "nginx.exe",
     "env_set": {
         "NGINX_HOME": "$dir"

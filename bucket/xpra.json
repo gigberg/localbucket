@@ -6,6 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://xpra.org/stable/windows/Xpra-Light-Python3-x86_64_3.1.8-r11.zip",
+      "hash": "11bb50c8cd79cfa6be625349fe830306020f6c419c7646d5156216ed0f8a7aeb",
       "extract_dir": "Xpra-Light-Python3-x86_64_3.1.8-r11"
     }
   },

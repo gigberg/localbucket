@@ -1,6 +1,10 @@
 {
-    "url": "https://files1.majorgeeks.com/10afebdbffcd4742c81a3cb0f6ce4092156b4375/admin/BOOTICEx64_v1.332.rar",
-    "version": "1.332",
+    "homepage": "http://bbs.wuyou.net/forum.php?mod=viewthread&tid=413340",
+    "description": "BOOTICE is a startup-related maintenance gadget that is primarily used to install, repair, back up, and restore MBR (Master Boot Record) or partition PBR (Partition Boot Record) of disks (mirrors), edit BCDs for Windows 7/8, and manage UEFI startup items. It also features disk sector editing, disk population, partition management, disk re-partitioning, and formatting.",
+    "license": "MIT",
+    "url": "https://api.xrgzs.top/lanzou/?url=https://www.lanzoui.com/iclUw2oqgdpc&type=down#/BOOTICE.exe",
+    "hash": "e1cb831ac9213b52066f934ba0fa80ea8a9de48932452d4142fa085a2ba24fc2",
+    "version": "1.3.4.0",
     "bin": [
         ["booticex64.exe", "bootice"]
     ],

@@ -1,6 +1,8 @@
 {
     "version": "8.5",
     "homepage": "https://www.mythicsoft.com/filelocatorpro/",
+    "license": "Shareware",
+    "hash": "15bc0e6fa56d93811109ae51243c0fbb059b61a3b1c584ab2abe73386508c1a1",
     "description": "FileLocatorPortable",
     "url": "file:///D:/PortablePrograms/Win10Tools/FileLocator/FileLocator_Portable（8.5b2912）.rar",
     "extract_dir": "FileLocatorPortable",

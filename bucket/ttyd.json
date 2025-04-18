@@ -3,9 +3,8 @@
     "description": "Share your terminal over the web",
     "homepage": "https://tsl0922.github.io/ttyd",
     "license": "MIT",
-    "changelog": "https://github.com/tsl0922/ttyd/releases",
     "url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.win32.exe#/ttyd.exe",
-    "hash": "",
+    "hash": "0cd03bd231d464fb93798664cd7a9897215ca95e",
     "bin": "ttyd.exe",
     "checkver": {
         "github": "https://github.com/tsl0922/ttyd"

@@ -7,7 +7,7 @@
     "url": "https://www.highrez.co.uk/downloads/XMouseButtonControl.htm"
   },
   "url": "https://dvps.highrez.co.uk/downloads/XMouseButtonControl%202.20.5%20Portable.zip",
-  "hash": "",
+  "hash": "383079c809a50d1c375c5751e085efa871905adc775817c27d75eb471d70f4e3",
   "architecture": {
     "32bit": {
       "extract_dir": "32bit (x86)"
@@ -31,5 +31,5 @@
   "autoupdate": {
     "url": "https://dvps.highrez.co.uk/downloads/XMouseButtonControl%20$version%20Portable.zip"
   },
-  "_from": "okibcn/ScoopMaster"
+  "##": "okibcn/ScoopMaster"
 }

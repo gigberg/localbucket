@@ -1,6 +1,8 @@
 {
     "version": "2.4.0.237",
     "homepage": "https://rsload.net/soft/11768-easybcd.html",
+    "license": "Shareware",
+    "hash": "5e8054463999c114000167f6a273f2b44716addedcf2a3ac150cc9e30640eb5c",
     "description": "EasyBCD helps you take control of your boot loader. EasyBCD supercharges your Windows PC, allowing you to dual-boot to your heart's content.",
     "url": "file:///D:/PortablePrograms/DiskHardwareTools/EasyBCD 2.4.0.237 Portable RSLOAD.NET.7z",
     "notes": [
