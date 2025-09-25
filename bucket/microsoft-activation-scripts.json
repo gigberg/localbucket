@@ -1,5 +1,5 @@
 {
-    "version": "0.2025.09.25.07fd04e",
+    "version": "0.2025.09.25.b627d74",
     "description": "A Windows and Office activator using HWID / KMS38 / Online KMS activation methods, with a focus on open-source code and fewer antivirus detections.",
     "homepage": "https://massgrave.dev/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/blob/master/LICENSE"
     },
     "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/master.zip",
-    "hash": "4284679a6dd0a23bb964a1c5bc6f6ade0572a45367410426a74821e6ea245f12",
+    "hash": "4ffff45be8325563bdf1100e28635761b6785201435ee73cfcf7e39ba7865c8d",
     "extract_dir": "Microsoft-Activation-Scripts-master\\MAS\\All-In-One-Version-KL",
     "bin": "MAS_AIO.cmd",
     "checkver": {
