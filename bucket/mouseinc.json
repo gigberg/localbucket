@@ -1,7 +1,7 @@
 {
     "homepage": "https://shuax.com/project/mouseinc/",
     "license": "Shareware",
-    "notes": "Run `scoop config aria2-enabled false & scoop install_ localbucket/ardc & scoop config aria2-enabled true`.",
+    "notes": "Run `scoop config aria2-enabled false & scoop install_ localbucket/mouseinc & scoop config aria2-enabled true`.",
     "version": "2.3.14",
     "url": "file:///D:/PortablePrograms/localbucketapps/MouseInc2.13.4.7z",
     "hash": "8bacea5553b4dbcf4e778e8f9711499c77b1da5d8834a4b8d0bc19ab6f23295c",
