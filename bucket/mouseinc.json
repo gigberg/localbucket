@@ -1,13 +1,11 @@
 {
-    "homepage": "https://github.com/yefengwu/franket",
-    "license": "MIT",
+    "homepage": "https://shuax.com/project/mouseinc/",
+    "license": "Shareware",
+    "notes": "Run `scoop config aria2-enabled false & scoop install_ localbucket/ardc & scoop config aria2-enabled true`.",
     "version": "2.3.14",
-    "url": "https://github.com/yefengwu/franket/releases/download/latest/Mouseinc_2.13.4.7z",
-    "hash": "1b7d6b7a2e147a5ff02448d92e2c2af1a63a5d0983448bf75e9e2233b0b79bc4",
+    "url": "file:///D:/PortablePrograms/localbucketapps/MouseInc2.13.4.7z",
+    "hash": "8bacea5553b4dbcf4e778e8f9711499c77b1da5d8834a4b8d0bc19ab6f23295c",
     "bin": "MouseInc.exe",
-    "shortcuts": [["Mouseinc.exe", "Mouseinc"]],
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/yefengwu/franket/releases/download/latest/Mouseinc_2.13.4.7z"
-    }
+    "persist": "MouseInc.json",
+    "shortcuts": [["Mouseinc.exe", "Mouseinc"]]
 }

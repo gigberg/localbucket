@@ -2,7 +2,7 @@
     "version": "8.5",
     "homepage": "https://www.mythicsoft.com/filelocatorpro/",
     "license": "Shareware",
-    "notes": "Aria2 not supports local file protocol, you'll need use vanilla download method temporarily. Run scoop config aria2-enabled false & scoop install_ localbucket/ardc & scoop config aria2-enabled true.",
+    "notes": "Aria2 not supports local file protocol, you'll need use vanilla download method temporarily. Run `scoop config aria2-enabled false & scoop install_ localbucket/ardc & scoop config aria2-enabled true`.",
     "hash": "15bc0e6fa56d93811109ae51243c0fbb059b61a3b1c584ab2abe73386508c1a1",
     "description": "FileLocatorPortable",
     "url": "file:///D:/PortablePrograms/localbucketapps/FileLocator_Portable（8.5b2912）.rar",
