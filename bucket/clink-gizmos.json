@@ -1,14 +1,14 @@
 {
-    "version": "0.2026.11.01",
+    "version": "0.2026.11.09",
     "homepage": "https://github.com/chrisant996/clink-gizmos",
     "description": "A library of Lua scripts for use with Clink",
     "license": "MIT",
     "suggest": {
         "Clink": "clink"
     },
-    "url": "https://github.com/chrisant996/clink-gizmos/archive/f7a416d83d907c283522ff4233651d3cbab0a102.zip",
-    "hash": "27447d66a5577234a4563c296340fd654586d6b2f14d627546bb8031898b92f0",
-    "extract_dir": "clink-gizmos-f7a416d83d907c283522ff4233651d3cbab0a102",
+    "url": "https://github.com/chrisant996/clink-gizmos/archive/7f324645b96f43ce2e7d6ef9d447f7ce6fda4d58.zip",
+    "hash": "7ff35ae23ee9b2b6f90139df84dee631e6f8d74917fc7c336bb764d9bb2c9c06",
+    "extract_dir": "clink-gizmos-7f324645b96f43ce2e7d6ef9d447f7ce6fda4d58",
     "installer": {
         "script": [
             "$luapath = Join-Path (Split-Path -Path \"$dir\" -Parent) \"current\"",
